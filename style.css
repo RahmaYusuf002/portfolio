@@ -1,0 +1,102 @@
+body {
+  background-color: #f1f1f1;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background: url("./images//WhatsApp\ Image\ 2023-02-02\ at\ 10.10.54.jpeg")
+    center no-repeat;
+  color: #f1f1f1;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h1 {
+  color: white;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.head {
+  background-color: black;
+  border-radius: 50%;
+  padding: 0.3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+span {
+  position: absolute;
+  top: 1.2rem;
+  left: 3.5rem;
+  font-size: 1.5rem;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+nav > ul > li {
+  margin-left: 0.5rem;
+  margin-right: 0.7rem;
+}
+
+.star {
+  height: 2rem;
+  position: absolute;
+  margin-top: -0.6rem;
+}
+
+nav {
+  background-color: grey;
+}
+
+.main {
+  margin: 6rem auto;
+  padding: 1rem;
+  width: 100vw;
+
+  border-radius: 1rem;
+}
+
+button {
+  background-color: #f1f1f1;
+
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem auto;
+}
+
+
+.social-media{
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+}
